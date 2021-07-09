@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Tourney&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body,html
+{
+    height: 100%;
+    margin: 0;
+}
+.home-bg 
+{
+    transition-duration: 0.5s;
+    padding: 20px;
+    background-image: url('./public/home-bg-image.jpg');
+    min-height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.typer
+{   
+    color: white;
+    font-size: 25px;
+    min-height: 170px;
+}
+#about,#works
+{
+    min-height: 100%;
+}
+nav>button
+{
+    border: 2px solid rgba(255, 255, 255, 0.6) !important;
+}
+nav>button:focus
+{ 
+    outline: none !important;
+    box-shadow: none !important;
+}
+.header
+{
+    min-height: 10%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 1);
+    font-family: Montserrat;
+
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0s, opacity 0.7s linear; 
+}
+
+.navbar-nav > li
+{
+    padding-left:20px;
+    padding-right:20px;
+}
+.nav-link
+{
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+.nav-link:hover
+{
+    color: white !important;
+}
+.active
+{
+    text-decoration: underline;
+    color: white !important;
+    font-weight: bold;
+}
+.home
+{
+    min-height: 100%;
+    margin-top: 12%;
+}
+
+@media screen and (max-width:768px) 
+{
+    .home-content
+    {
+        margin-top: 20%;
+    }
+    .my-works
+    {
+        margin-top: 20px;
+    }
+}
+
+.name
+{
+    color: rgba(255, 255, 255, 0.9);
+    animation: glow 0.8s ease-in-out infinite alternate;
+}
+
+@keyframes glow 
+{
+    from {text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;}
+    to {text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #0073e6, 0 0 40px #0073e6, 0 0 50px #0073e6, 0 0 60px #0073e6, 0 0 70px #0073e6;}
+}
+.iam 
+{
+    font-size: 1.7rem;
+    font-family: IBM Plex Serif;
+}
+.autotyper
+{
+    font-size: 1.9rem;
+    color: rgb(154, 209, 241);
+    font-family: Tourney;
+    text-shadow: 3px 3px 3px rgb(154, 209, 241);
+}
+
+.more-about-me,.my-works
+{
+    text-align: center;
+    font-family: Courgette;
+    font-size: 1.3rem;
+    cursor: pointer;
+    padding: 5px 10px 5px 10px;
+    border: 2px solid white;
+    color: white;
+    transition-duration: 0.6s;
+    width: 200px;
+}
+.more-about-me:hover,.my-works:hover
+{
+    background-color: white;
+    color: black;
+}
+a,a:hover
+{
+    text-decoration: none;
+}
+
+.about
+{
+    font-family: IBM Plex Serif;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 1);
+}
+.about-sentence
+{
+    font-family: Montserrat;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.line
+{
+    width: 10rem;
+    height: 1px;
+    background-color: rgb(119, 119, 119);
+}
+
+.about-content
+{
+    font-size: 1.1rem;
+    font-family: IBM Plex Serif;
+    color: rgba(0, 0, 0, 0.8);
+}
+.bonjour,.myskills,.skills
+{
+    font-family: Montserrat;
+    font-weight: bold;
+    color: black;
+}
+@media screen and (max-width:991px) 
+{
+    .myskills
+    {
+        margin-top: 50px;
+    }
+}
+
+.progress-bar
+{
+    width: 90%;
+    height: 5px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.percent
+{
+    height: inherit;
+    background-color: black;
+}
+.percent-90
+{
+    width: 90%;
+}
+.percent-85
+{
+    width: 85%;
+}
+.percent-80
+{
+    width: 80%;
+}
+.percent-75
+{
+    width: 75%;
+}
+.percent-70
+{
+    width: 70%;
+}
+.percent-65
+{
+    width: 65%;
+}
+
+.skills > *
+{
+    margin-top: 30px;
+    font-weight: bold;
+}
+.education
+{
+    font-family: Montserrat;
+    font-weight: bold;
+}
+.education-underline
+{
+    width: 50%;
+    height: 2px;
+    background-color: black;
+    margin-left: 25%;
+}
+.education-timeline
+{
+    width: 1px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.timeline-round
+{
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    margin-left: -5px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.education-date
+{
+    font-family: Montserrat;
+    color: rgba(0, 0, 0, 0.4);
+    font-weight: 600;
+}
+.education-header
+{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.education-subheader
+{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.education-content
+{
+    font-family: IBM Plex Serif;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.myresume,.contactme
+{
+    width: 100%;
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    font-family: Montserrat;
+    font-size: 1.1rem;
+    font-weight: 600;
+    transition-duration: 0.6s;
+    border: 2px solid rgba(0, 0, 0, 0.9);
+}
+.myresume:hover,.contactme:hover
+{
+    background-color: white;
+    color: black;
+}
+
+.projects-works-bg
+{
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 100%;
+}
+.projects-heading
+{
+    font-family: IBM Plex Serif;
+    font-weight: bolder;
+    color: rgba(255, 255, 255, 0.9);
+    text-decoration: underline;
+}
+.projects-content
+{
+    color: rgba(255, 255, 255, 0.9);
+    font-family: Montserrat;
+    font-size: 1.3rem;
+}
+.projects-sub
+{
+    font-family: IBM Plex Serif;
+    font-weight: bolder;
+    color: rgba(255, 255, 255, 0.9);
+}
+.projects-link
+{
+    background-color: rgba(255, 255, 255, 0.85);
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    color: black;
+    font-family: Montserrat;
+    font-weight: bold;
+    transition-duration: 0.3s;
+}
+.projects-link:hover
+{
+    background-color: white;
+}
+
+.contact-subheading
+{
+    font-family: IBM Plex Serif;
+    font-weight: bolder;   
+}
+.contact-content
+{
+    font-family: Montserrat;
+    font-size: 1rem;
+}
+
+.social-icons > a
+{
+    color: black;
+}
+
+.social-icon-text
+{
+    font-family: Montserrat, sans-serif;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+}
+.social-icons > a::after
+{
+    content: '|';
+    margin-left: 10px;
+    margin-right: 12px;
+}
+.social-icons > a:last-child::after
+{
+    display: none;
+}
+
+.copyright
+{
+    font-family: Montserrat;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.scrolltotop
+{
+    scroll-behavior: smooth;
+    cursor: pointer;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: black;
+    color: white;
+    padding: 5px 15px 5px 15px;
+    border-radius: 2px;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.7s linear;   
+}

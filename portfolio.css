@@ -329,7 +329,7 @@ a,a:hover
     font-size: 1rem;
 }
 
-.social-icons > a
+.social-icons > span > a
 {
     color: black;
 }
@@ -342,13 +342,13 @@ a,a:hover
     letter-spacing: 0.2rem;
     font-weight: bold;
 }
-.social-icons > a::after
+.social-icons > span::after
 {
     content: '|';
     margin-left: 10px;
     margin-right: 12px;
 }
-.social-icons > a:last-child::after
+.social-icons > span:last-child::after
 {
     display: none;
 }

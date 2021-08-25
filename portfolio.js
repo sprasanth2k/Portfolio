@@ -2,7 +2,7 @@ function initialiseAutoTyper()
 {
     let div = document.querySelector('.autotyper')
     let i=0,f=1,j=0
-    let arr = ['a student','studying 3rd year in MIT',' a Front-end Web developer',' a competitive programmer']
+    let arr = ['a student','studying final year in MIT',' a Front-end Web developer',' a competitive programmer']
     let s = ''
 
     let startAutoTyper = () => {

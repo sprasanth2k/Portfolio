@@ -182,10 +182,6 @@ a,a:hover
     height: inherit;
     background-color: black;
 }
-.percent-90
-{
-    width: 90%;
-}
 .percent-85
 {
     width: 85%;
@@ -194,17 +190,17 @@ a,a:hover
 {
     width: 80%;
 }
-.percent-75
-{
-    width: 75%;
-}
-.percent-70
-{
-    width: 70%;
-}
 .percent-65
 {
     width: 65%;
+}
+.percent-60
+{
+    width: 60%;
+}
+.percent-50
+{
+    width: 50%;
 }
 
 .skills > *
